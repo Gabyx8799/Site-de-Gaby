@@ -1,0 +1,173 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #97CADB;
+  overflow: hidden;
+}
+
+.banner {
+  width: 100%;
+  ;
+  height: 115px;
+  background-color: #0245a0;
+  position: relative;
+  overflow: visible;
+  /* Permet de voir le cercle en entier */
+}
+
+.banner2 {
+  width: 100%;
+  height: 200px;
+  background-color: #02457A;
+  position: relative;
+  overflow: visible;
+  /* Permet de voir le cercle en entier */
+}
+
+.circle {
+  width: 250px;
+  height: 250px;
+  background-color: #018ABE;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+  transform: translate(500%, -50%);
+  color: black;
+  font-size: 43px;
+  font-family: "Stoer Number";
+}
+
+.deplacetableau {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-17%, 20%)
+}
+
+.deplacetableau2 {
+  transform: translate(4%, 30%);
+}
+
+.size {
+  color: black;
+  font-size: 30px;
+  font-family: "valorant";
+  padding: 30px
+}
+
+.sizeaccueil {
+  color: black;
+  font-size: 48px;
+  font-family: "cubic";
+  padding: 700px
+}
+
+.textyear {
+  text-decoration: none;
+  font-family: "valorant";
+}
+
+.carreaccueil {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 43px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-family: "";
+  background-color: #97CADB;
+  transition: 1s;
+  
+}
+
+.carreaccueil:hover{ 
+  transition: 1s;
+  direction:bottome;
+  width: 350px;
+  height: 350px;
+}
+
+.size2 {
+  padding: 20px;
+}
+
+@font-face {
+  font-family: "Holiday";
+  src: url("Holiday.otf");
+}
+
+@font-face {
+  font-family: "Stoer Numbers";
+  src: url("Stoer Numbers.ttf");
+}
+
+@font-face {
+  font-family: "coolvetica rg";
+  src: url("coolvetica rg.ttf");
+}
+
+@font-face {
+  font-family: "cubic";
+  src: url("cubic.ttf");
+}
+
+@font-face {
+  font-family: "valorant";
+  src: url("Valorant Font.ttf");
+}
+
+.desrecentes {
+  /* -webkit-text-stroke: 3px black; */
+  color: black;
+  font-size: 50px;
+  font-family: "valorant";
+  transform: translate(2%, 25%)
+}
+
+/* .img{
+  width: 100%;
+  height: 125px;
+  background-color: black;
+  border-radius:10px;
+  transform:translate(0%,0%)
+  } */
+
+.desimg {
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  font-family: "valorant";
+  transform: translate(0%, 0%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  -webkit-text-stroke: 0.5px black;
+}
+
+.img1index {
+  background-image: url("marbella.jpg");
+  background-size: 100% 100%;
+}
+
+.img2index {
+  background-image: url("london.jpg");
+  background-size: 100% 100%;
+}
+
+.img3index {
+  background-image: url("crete.jpg");
+  background-size: 100% 100%;
+}
+
+.img4index {
+  background-image: url("ilederejpg.jpg");
+  background-size: 100% 100%;
+}
